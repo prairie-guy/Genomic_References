@@ -3,7 +3,7 @@
 This is a repository of genomic references to be provided for reproducible access across different bioinformatic analyses. Though primarily fasta files, indexes and other references may be included--provided the files are not too large for reasonable use within GitHub.
 
 ### Git Large File Storage (LFS) 
-Files with the following extentions are saved with LHS: fq.gz 
+These files are tracked byLHS: fq.gz 
 
 Steps required to set up LHS:
 - mamba install git-lfs
@@ -15,9 +15,10 @@ Steps required to set up LHS:
 
 ## DNA References
 - Homo_sapiens.GRCh38.111.genome.fa.gz
-  - wget http://ftp.ensembl.org/pub/release-111/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz Homo_sapiens.GRCh38.111.genome.fa.gz 
+  ```
+  - wget http://ftp.ensembl.org/pub/release-111/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz Homo_sapiens.GRCh38.111.genome.fa.gz
+  ```
 - Homo_sapiens.GRCh38.111.gff3.gz
-  
   
   
 -
