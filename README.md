@@ -2,16 +2,19 @@
 
 This is a repository of genomic references to be provided for reproducible access across different bioinformatic analyses. Though primarily fasta files, indexes and other references may be included--provided the files are not too large for reasonable use within GitHub.
 
-### Git Large File Storage (LFS) 
+#### Git Large File Storage (LFS) 
 These files are tracked byLHS: fq.gz 
 
 Steps required to set up LHS:
-- mamba install git-lfs
-- git lfs install
-- git lfs track "*.fq.gz"
-- git lfs track "*.gz"
-- git lfs track "*.ht2"
-- git add .gitattributes
+
+```
+mamba install git-lfs
+git lfs install
+git lfs track "*.fq.gz"
+git lfs track "*.gz"
+git lfs track "*.ht2"
+git add .gitattributes
+```
 
 ## DNA References
 - Homo_sapiens.GRCh38.111.genome.fa.gz
