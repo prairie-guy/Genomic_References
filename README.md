@@ -16,10 +16,12 @@ Steps required to set up LHS:
 ## DNA References
 - Homo_sapiens.GRCh38.111.genome.fa.gz
   ```
-  - wget http://ftp.ensembl.org/pub/release-111/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz Homo_sapiens.GRCh38.111.genome.fa.gz
+  wget http://ftp.ensembl.org/pub/release-111/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz -o Homo_sapiens.GRCh38.111.primary_assembly.fa.gz
   ```
 - Homo_sapiens.GRCh38.111.gff3.gz
-  
+ ```
+ wget https://ftp.ensembl.org/pub/release-111/gtf/homo_sapiens/Homo_sapiens.GRCh38.111.chr.gtf.gz -o Homo_sapiens.GRCh38.111.chr.gtf.gz
+ ``` 
   
 -
 
