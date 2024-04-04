@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"23ba38b7f1e3e748c6e13478113febc261b30a53"
+"0d164b44b5a6b12a5de4b55f4992392229bcfe83"
 [nil nil nil nil (26126 51213 543125 182000) 0 nil]
 ([nil nil ((283 . 285) (t 26126 51059 3165 153000)) nil (26126 51213 543123 402000) 0 nil])
 ([nil nil ((293 . 295)) nil (26126 51213 543119 662000) 0 nil])
@@ -200,6 +200,14 @@
 ([nil nil ((#("- git add .gitattributes" 0 1 (fontified t markdown-list-item ((537 561 0 2 "- " nil (537 539 537 537 537 538 538 539))) face markdown-list-face) 1 2 (fontified t markdown-list-item ((537 561 0 2 "- " nil (537 539 537 537 537 538 538 539)))) 2 23 (fontified t markdown-list-item ((537 561 0 2 "- " nil (537 539 537 537 537 538 538 539)))) 23 24 (fontified t markdown-list-item ((537 561 0 2 "- " nil (537 539 537 537 537 538 538 539))))) . 537) (undo-tree-id238 . -11) (undo-tree-id239 . -24)) nil (26126 58250 576928 920000) 0 nil])
 ([nil nil ((#("
 " 0 1 (fontified t)) . 537) (undo-tree-id237 . -1)) nil (26126 58250 576924 740000) 0 nil])
-([nil current ((#("
+([nil nil ((#("
 " 0 1 (fontified t)) . 537) (undo-tree-id236 . -1)) nil (26126 58250 576919 330000) 0 nil])
+([nil nil ((539 . 540) (t 26126 58250 576269 548000)) nil (26126 58303 154818 613000) 0 nil])
+([nil nil ((#("-" 0 1 (fontified t)) . 957) (undo-tree-id264 . -1)) nil (26126 58303 154817 253000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 957) (undo-tree-id263 . -1)) nil (26126 58303 154815 33000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 957) (undo-tree-id262 . -1)) nil (26126 58303 154811 593000) 0 nil])
+([nil nil ((959 . 960)) nil (26126 58303 154803 613000) 0 nil])
+([nil current ((1168 . 1169)) nil (26126 58303 154799 653000) 0 nil])
 nil

@@ -16,7 +16,7 @@ git lfs track "*.ht2"
 git add .gitattributes
 ```
 
-## DNA References
+### DNA References
 - Homo_sapiens.GRCh38.111.genome.fa.gz
   ```
   wget http://ftp.ensembl.org/pub/release-111/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz -o Homo_sapiens.GRCh38.111.primary_assembly.fa.gz
@@ -26,12 +26,10 @@ git add .gitattributes
  wget https://ftp.ensembl.org/pub/release-111/gtf/homo_sapiens/Homo_sapiens.GRCh38.111.chr.gtf.gz -o Homo_sapiens.GRCh38.111.chr.gtf.gz
  ``` 
   
--
-
-## RNA References
+### RNA References
 These are a variety of RNA fasta sequences originally forked from from chlab/db curated by @y9c. These are useful for filtering various RNA sequences from experimental sequencing samples. 
 
-## BAT-seq
+### BAT-seq
 These are fasta files for templates used in the BAT-seq processing.
 
 - 200merMeth.fa (Methylation Sites: 123+, 124-)
