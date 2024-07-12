@@ -25,7 +25,12 @@ git add .gitattributes
  ```
  wget https://ftp.ensembl.org/pub/release-111/gtf/homo_sapiens/Homo_sapiens.GRCh38.111.chr.gtf.gz -o Homo_sapiens.GRCh38.111.chr.gtf.gz
  ``` 
-  
+
+- Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz
+```
+wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsis_thaliana/dna/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz
+```
+
 ### RNA References
 These are a variety of RNA fasta sequences originally forked from from chlab/db curated by @y9c. These are useful for filtering various RNA sequences from experimental sequencing samples. 
 
