@@ -36,8 +36,21 @@ wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsi
 #### cpg_island.bed
 [USCS userApps/cpg_lh program](https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=regulation&hgta_track=cpgIslandExt&hgta_table=cpgIslandExt&hgta_doSchema=describe+table+schema)
 
-         1      2       3           4           5       6       7       8       9       10      11
-        bin     chrom   chromStart  chromEnd	name	length	cpgNum	gcNum	perCpg	perGc	obsExp
+chrom	    chr1    	Reference sequence chromosome or scaffold
+chromStart	28735	    Start position in chromosome
+chromEnd	29737	    End position in chromosome
+name	    CpG: 111	CpG Island
+length	    1002	    Island Length
+cpgNum	    111	        Number of CpGs in island
+gcNum	    731	        Number of C and G in island
+perCpg	    22.2	    Percentage of island that is CpG
+perGc	    73	        Percentage of island that is C or G
+obsExp	    0.85	    Ratio of observed(cpgNum) to expected(numC*numG/length) CpG in island
+
+
+    1       2           3           4           5       6       7       8       9       10
+    chrom   chromStart  chromEnd	name	    length	cpgNum	gcNum	perCpg	perGc	obsExp
+    chr1	28735   	29737	    CpG: 111	1002	111	    731	    22.2	73	    0.85
 ```
 uscs_userApps/bin/cpg_lh human.fa | \ 
             awk '{$2 = $2 - 1; width = $3 - $2;\
@@ -55,12 +68,6 @@ These are fasta files for templates used in the BAT-seq processing.
 - 5mc164.fa (Methylation Sites: 77+, 127+, 93-, 128-)
 - pUC19.fa (Mathylation Sites: All CpG sites are 100% methylated)
 - lambda.fa (Methlyation Sites: No sites)
-
-
-
-
-
-
 
 
 
