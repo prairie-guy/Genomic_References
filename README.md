@@ -37,8 +37,8 @@ wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsi
 [USCS userApps/cpg_lh program](https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=regulation&hgta_track=cpgIslandExt&hgta_table=cpgIslandExt&hgta_doSchema=describe+table+schema)
 
     chrom	    chr1    	Reference sequence chromosome or scaffold
-    chromStart	28735	    Start position in chromosome
-    chromEnd	29737	    End position in chromosome
+    chromStart 28735	    Start position in chromosome
+    chromEnd   29737	    End position in chromosome
     name	    CpG: 111	CpG Island
     length	    1002	    Island Length
     cpgNum	    111	        Number of CpGs in island
