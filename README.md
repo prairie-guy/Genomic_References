@@ -32,13 +32,13 @@ wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsi
 ```
 
 ### DNA Annotation
-```
-# cpg_island.bed
-# [USCS userApps/cpg_lh program](https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=regulation&hgta_track=cpgIslandExt&hgta_table=cpgIslandExt&hgta_doSchema=describe+table+schema)
-#
-#          1    2       3           4           5       6       7       8       9       10      11
-# Columns: bin	chrom	chromStart	chromEnd	name	length	cpgNum	gcNum	perCpg	perGc	obsExp
 
+#### cpg_island.bed
+[USCS userApps/cpg_lh program](https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=regulation&hgta_track=cpgIslandExt&hgta_table=cpgIslandExt&hgta_doSchema=describe+table+schema)
+
+         1      2       3           4           5       6       7       8       9       10      11
+Columns: bin	chrom	chromStart	chromEnd	name	length	cpgNum	gcNum	perCpg	perGc	obsExp
+```
 uscs_userApps/bin/cpg_lh human.fa | \ 
             awk '{$2 = $2 - 1; width = $3 - $2;\
             printf("%s\t%d\t%s\t%s %s\t%s\t%s\t%0.0f\t%0.1f\t%s\t%s\n",$1, $2, $3, $5, $6, width, $6, width*$7*0.01, 100.0*2*$6/width, $7, $9);}' | \
