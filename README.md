@@ -40,7 +40,7 @@ wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsi
     chromStart  28735       Start position in chromosome
     chromEnd    29737       End position in chromosome
     name        CpG: 111    CpG Island
-    length      1002	    Island Length
+    length      1002        Island Length
     cpgNum      111	        Number of CpGs in island
     gcNum       731	        Number of C and G in island
     perCpg      22.2        Percentage of island that is CpG
