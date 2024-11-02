@@ -33,8 +33,9 @@ wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsi
 
 ### DNA Annotation
 ```
-# (using USCS userApps/cpg_lh program )
-cpg_island.bed 
+# cpg_island.bed
+# using USCS userApps/cpg_lh program
+
 uscs_userApps/bin/cpg_lh human.fa | \ 
             awk '{$2 = $2 - 1; width = $3 - $2;\
             printf("%s\t%d\t%s\t%s %s\t%s\t%s\t%0.0f\t%0.1f\t%s\t%s\n",$1, $2, $3, $5, $6, width, $6, width*$7*0.01, 100.0*2*$6/width, $7, $9);}' | \
