@@ -36,16 +36,16 @@ wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsi
 #### cpg_island.bed
 [USCS userApps/cpg_lh program](https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=regulation&hgta_track=cpgIslandExt&hgta_table=cpgIslandExt&hgta_doSchema=describe+table+schema)
 
-chrom	    chr1    	Reference sequence chromosome or scaffold
-chromStart	28735	    Start position in chromosome
-chromEnd	29737	    End position in chromosome
-name	    CpG: 111	CpG Island
-length	    1002	    Island Length
-cpgNum	    111	        Number of CpGs in island
-gcNum	    731	        Number of C and G in island
-perCpg	    22.2	    Percentage of island that is CpG
-perGc	    73	        Percentage of island that is C or G
-obsExp	    0.85	    Ratio of observed(cpgNum) to expected(numC*numG/length) CpG in island
+    chrom	    chr1    	Reference sequence chromosome or scaffold
+    chromStart	28735	    Start position in chromosome
+    chromEnd	29737	    End position in chromosome
+    name	    CpG: 111	CpG Island
+    length	    1002	    Island Length
+    cpgNum	    111	        Number of CpGs in island
+    gcNum	    731	        Number of C and G in island
+    perCpg	    22.2	    Percentage of island that is CpG
+    perGc	    73	        Percentage of island that is C or G
+    obsExp	    0.85	    Ratio of observed(cpgNum) to expected(numC*numG/length) CpG in island
 
 
     1       2           3           4           5       6       7       8       9       10

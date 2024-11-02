@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"7824a2f6a8908271d0a4b49593a1ebf276cdcc7d"
+"27ecc005ed9e30016ab25ddb12d117e4017b97a3"
 [nil nil nil nil (26405 35144 514525 735000) 0 nil]
 ([nil nil ((#("chrom	chr1	Reference sequence chromosome or scaffold
 chromStart	28735	Start position in chromosome
@@ -32,5 +32,15 @@ obsExp	0.85	Ratio of observed(cpgNum) to expected(numC*numG/length) CpG in islan
 ([nil nil ((1717 . 1721)) nil (26405 35144 514456 874000) 0 nil])
 ([nil nil ((1767 . 1771)) nil (26405 35144 514455 994000) 0 nil])
 ([nil nil ((1771 . 1775)) nil (26405 35144 514454 484000) 0 nil])
-([nil current ((1827 . 1831)) nil (26405 35144 514450 474000) 0 nil])
+([nil nil ((1827 . 1831)) nil (26405 35144 514450 474000) 0 nil])
+([nil nil ((1383 . 1387) (t 26405 35144 514098 108000)) nil (26405 35296 138423 984000) 0 nil])
+([nil nil ((1448 . 1452)) nil (26405 35296 138422 604000) 0 nil])
+([nil nil ((1502 . 1506)) nil (26405 35296 138421 614000) 0 nil])
+([nil nil ((1552 . 1556)) nil (26405 35296 138420 334000) 0 nil])
+([nil nil ((1585 . 1589)) nil (26405 35296 138419 284000) 0 nil])
+([nil nil ((1623 . 1627)) nil (26405 35296 138418 154000) 0 nil])
+([nil nil ((1675 . 1679)) nil (26405 35296 138416 854000) 0 nil])
+([nil nil ((1729 . 1733)) nil (26405 35296 138415 364000) 0 nil])
+([nil nil ((1786 . 1790)) nil (26405 35296 138413 104000) 0 nil])
+([nil current ((1847 . 1851)) nil (26405 35296 138408 314000) 0 nil])
 nil
