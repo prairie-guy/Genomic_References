@@ -37,7 +37,7 @@ wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsi
 [USCS userApps/cpg_lh program](https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=regulation&hgta_track=cpgIslandExt&hgta_table=cpgIslandExt&hgta_doSchema=describe+table+schema)
 
          1      2       3           4           5       6       7       8       9       10      11
-Columns: bin	chrom	chromStart	chromEnd	name	length	cpgNum	gcNum	perCpg	perGc	obsExp
+        bin     chrom   chromStart  chromEnd	name	length	cpgNum	gcNum	perCpg	perGc	obsExp
 ```
 uscs_userApps/bin/cpg_lh human.fa | \ 
             awk '{$2 = $2 - 1; width = $3 - $2;\
