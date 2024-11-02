@@ -49,7 +49,7 @@ wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsi
 
 
     1       2           3           4           5       6       7       8       9       10
-    chrom   chromStart  chromEnd	name	    length	cpgNum	gcNum	perCpg	perGc	obsExp
+    chrom   chromStart  chromEnd	name	    length  cpgNum  gcNum   perCpg  perGc   obsExp
     chr1	28735       29737       CpG: 111    1002    111     731     22.2    73      0.85
 ```
 uscs_userApps/bin/cpg_lh human.fa | \ 
