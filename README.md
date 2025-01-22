@@ -31,6 +31,15 @@ git add .gitattributes
 wget https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-59/fasta/arabidopsis_thaliana/dna/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz
 ```
 
+- Mus_musculus.GRCm39.dna.primary_assembly.fa.gz
+NOTE: NOT DOWNLOADED TO THIS REPO, ONLY PROVIED AS A REFERENCE
+
+``` 
+wget https://ftp.ensembl.org/pub/release-113/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.primary_assembly.fa.gz Mus_musculus.GRCm39.dna.primary_assembly.fa.gz
+bin/extract_chromosomes.sh Mus_musculus.GRCm39.dna.primary_assembly.fa > mouse.fa  # Only Keeps chromosomes, eliminating scaffold
+cat mouse.fa |sed 's/</<mm/' # Need to avoid confilicts with chr names when using mixed indexes or mixed mapping
+```
+
 ### DNA Annotation
 
 #### cpg_island.bed

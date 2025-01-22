@@ -12,4 +12,4 @@
 
 3. Download Table as 'promoter2.bed'
 
-4. cat promoter2.bed |awk '{print $1 "\t"  $2 + 1000 "\t" $3 - 100 "\t" $6 "\t"  $4}'|sed 's/chr//' > human_promoter.bed
+4. cat promoter2.bed |awk '{print $1 "\t"  $2 - 1000 "\t" $3 + 100 "\t" $6 "\t"  $4}'| awk '$2>0'| sed 's/chr//' > human_promoter.bed
